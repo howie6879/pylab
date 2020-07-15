@@ -45,7 +45,7 @@
 - [x] [领域驱动设计](pylab/books/领域驱动设计)：[#22](https://github.com/howie6879/pylab/issues/22)
 - [x] [大数据治理](pylab/books/大数据治理)：[思维导图](./pylab/books/大数据治理)
 - [x] 精通特征工程: [思维导图](./pylab/books/精通特征工程/精通特征工程.png)
-- [ ] PySpark实战指南: [思维导图](./pylab/books/PySpark实战指南/PySpark实战指南.xmind)
+- [x] PySpark实战指南: [思维导图](./pylab/books/PySpark实战指南/PySpark实战指南.xmind)
 - [ ] 游戏数据分析的艺术: [游戏数据分析的艺术](./pylab/books/游戏数据分析的艺术/游戏数据分析的艺术.xmind)
 - [ ] [Python设计模式（第二版）](./pylab/books/Python设计模式（第二版）)：TODO
 
