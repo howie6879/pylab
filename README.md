@@ -26,10 +26,11 @@
 
 此处记录比较有印象的编程相关的书籍，`Notion`地址见[这里](https://www.notion.so/0245c7cf27394c9fb92712c89ff8b64b?v=6ec8e598d9da451f993349f0f240f21f)，图示如下：
 
-<h1 align=center>
-<img src="https://raw.githubusercontent.com/howie6879/oss/master/images/image-20200715225351536.png" width='100%' height=''>
-</h1>
-
+<p>
+    <div style="width:100%; height:350px;border:none;text-align:center">
+		<iframe allowtransparency="yes" frameborder="0" width="300" height="300" src="./books.html"/>
+	</div>
+</p>
 
 #### 概率论与数理统计
 
@@ -82,3 +83,4 @@
 - 公众号：[老胡的储物柜](https://camo.githubusercontent.com/8f6ae80175e0224eb1fb77f4ba66e857bf594cc5/68747470733a2f2f7773312e73696e61696d672e636e2f6c617267652f303037693358435567793166796a766d777a6f71326a333070303064776d7a6c2e6a7067)，扫一扫关注我~
 
 <div align=center><img width="300px" height="300px" src="https://raw.githubusercontent.com/howie6879/howie6879.github.io/img/pictures/20190529083905.png" /></div>
+
