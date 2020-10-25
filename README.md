@@ -21,7 +21,7 @@
 }
 ```
 
-此时可通过GUI界面进行插件安装：
+此时可通过GUI界面进行插件安装（看你心情装不装）：
 
 - jupyterlab-drawio
 - jupyterlab_code_formatter
