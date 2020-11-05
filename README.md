@@ -11,15 +11,7 @@
 
 ### 使用
 
-先看这篇文章[JupyterLab：程序员的笔记本神器](JupyterLab：程序员的笔记本神器)，本篇主要是针对`Jupyter Lab`插件的一些配置。
-
-首先开启插件安装`Tab`，点击`Settings->Advanced Settings Editor`，将`false`改成`true`:
-
-```json
-{
-    "enabled": false
-}
-```
+先看这篇文章[JupyterLab：程序员的笔记本神器](https://www.howie6879.cn/post/2019/04_how_to_use_jupyterlab/)，本篇主要是针对`Jupyter Lab`插件的一些配置。
 
 此时可通过GUI界面进行插件安装（看你心情装不装）：
 
@@ -44,7 +36,7 @@ jupyter serverextension enable --py jupyterlab_code_formatter
 此处记录比较有印象的编程相关的书籍，`Notion`地址见[这里](https://www.notion.so/0245c7cf27394c9fb92712c89ff8b64b?v=6ec8e598d9da451f993349f0f240f21f)，图示如下：
 
 <h1 align=center>
-<img src=".files/images/books.jpg" width='100%' height=''>
+<img src="https://raw.githubusercontent.com/howie6879/pylab/master/.files/images/books.jpg" width='100%' height=''>
 </h1>
 
 #### 概率论与数理统计
