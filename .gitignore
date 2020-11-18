@@ -111,3 +111,5 @@ pylab/papers/character_level_convolutional_networks_for_text_classiﬁcation/tes
 pylab/books/deep_learning_with_python/deep-learning-with-python-notebooks-master
 *.h5
 *.swp
+.virtual_documents/
+nohup.out
