@@ -5,4 +5,4 @@
 - 实验代码: 见 [pylab/nndl](pylab/books/nndl)
 - 官方代码：见 [nndl](https://github.com/mnielsen/neural-networks-and-deep-learning)
 - 笔记记录：
-    - 第一章：[神经网络与深度学习笔记 - 1.识别手写字](https://www.howie6879.cn/post/33/)
+    - [ml_note](https://github.com/howie6879/ml_note)
