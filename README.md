@@ -68,6 +68,13 @@ jupyter serverextension enable --py jupyterlab_code_formatter
 
 - 文章翻译目录: 见[Articles On Translation](.articles/articles_translation.md)
 
+### 笔记
+
+学习过程中产生的笔记教程：
+
+- nndl笔记：适合入门深度学习，[nndl_note](https://www.howie6879.cn/categories/deep-learning/)
+- k8s笔记：学习k8s，[k8s学习之路](https://www.howie6879.cn/categories/k8s/)
+
 ### 关于
 
 如果你对`Python`感兴趣，欢迎你加入我的**免费**知识星球**我的Python世界**：
