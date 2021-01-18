@@ -13,19 +13,20 @@
 
 先看这篇文章[JupyterLab：程序员的笔记本神器](https://www.howie6879.cn/post/2019/04_how_to_use_jupyterlab/)，本篇主要是针对`Jupyter Lab`插件的一些配置。
 
-此时可通过GUI界面进行插件安装（看你心情装不装）：
+下面几个插件是我比较推崇的：
 
-- jupyterlab-drawio
-- jupyterlab_code_formatter
+- jupyterlab_code_formatter: 代码格式化
+- jupyterlab-kite: 代码智能提示
 
-关于的安装配置，需要进入项目特定环境：
+
+关于的代码格式化的安装配置，需要进入项目项目环境，安装如下插件[jupyterlab_code_formatter](https://jupyterlab-code-formatter.readthedocs.io/en/latest/installation.html)：
 
 ```shell
-jupyter labextension install @ryantam626/jupyterlab_code_formatter
 pipenv install jupyterlab_code_formatter
-pipenv install black
-jupyter serverextension enable --py jupyterlab_code_formatter
+pipenv install black isort
 ```
+
+
 
 ### 书籍
 
