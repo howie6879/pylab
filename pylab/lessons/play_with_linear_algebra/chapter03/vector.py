@@ -1,9 +1,9 @@
 import math
+
 from _globals import EPSILON
 
 
 class Vector:
-
     def __init__(self, lst):
         self._values = list(lst)
 
@@ -14,15 +14,17 @@ class Vector:
 
     def __add__(self, another):
         """向量加法，返回结果向量"""
-        assert len(self) == len(another), \
-            "Error in adding. Length of vectors must be same."
+        assert len(self) == len(
+            another
+        ), "Error in adding. Length of vectors must be same."
 
         return Vector([a + b for a, b in zip(self, another)])
 
     def __sub__(self, another):
         """向量减法，返回结果向量"""
-        assert len(self) == len(another), \
-            "Error in subtracting. Length of vectors must be same."
+        assert len(self) == len(
+            another
+        ), "Error in subtracting. Length of vectors must be same."
 
         return Vector([a - b for a, b in zip(self, another)])
 

@@ -6,7 +6,7 @@
 
 - 版本：Python3.6
 - 环境管理：pipenv
-- 笔记本：Jupyter Lab
+- 笔记本：Jupyter Lab > 3.0
 - 管理软件：Notion
 
 ### 使用
@@ -25,8 +25,6 @@
 pipenv install jupyterlab_code_formatter
 pipenv install black isort
 ```
-
-
 
 ### 书籍
 
@@ -63,18 +61,20 @@ pipenv install black isort
 - [视频管理](https://www.notion.so/howie6879/12035133f6904f18b41a66c49acf41f7?v=704e565470fc49bca65e7e4fc8fd5abe)
 - [专栏管理](https://www.notion.so/howie6879/3338c80cb631484389a17409b4ca3307?v=f5d34db10e344f85907282442d72c79a)
 
+### 笔记
+
+学习过程中产生的笔记教程：
+
+- nndl笔记：适合入门深度学习，[nndl_note](https://www.howie6879.cn/categories/deep-learning/)
+- k8s笔记：学习k8s，[k8s学习之路](
+
 ### 翻译
 
 > 好的文章以及文档翻译
 
 - 文章翻译目录: 见[Articles On Translation](.articles/articles_translation.md)
 
-### 笔记
-
-学习过程中产生的笔记教程：
-
-- nndl笔记：适合入门深度学习，[nndl_note](https://www.howie6879.cn/categories/deep-learning/)
-- k8s笔记：学习k8s，[k8s学习之路](https://www.howie6879.cn/categories/k8s/)
+- https://www.howie6879.cn/categories/k8s/)
 
 ### 关于
 
