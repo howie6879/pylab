@@ -10,7 +10,6 @@ pytest = "*"
 [packages]
 numpy = "*"
 tensorflow = "*"
-jupyter = ""
 ipython = "*"
 matplotlib = "*"
 pandas = "*"
@@ -25,6 +24,8 @@ hdfs = "*"
 black = "*"
 jupyterlab-code-formatter = "*"
 jupyterlab-kite = ">=2.0.2"
+jupyter = "*"
+jupyterlab-drawio = "*"
 
 [requires]
 python_version = "3.7"
