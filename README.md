@@ -37,6 +37,7 @@ docker run --name jupyter_pylab -it -d --restart=always -p 8765:8888 -e SHELL="/
 - [Ruia](https://github.com/howie6879/ruia)：异步爬虫框架
 - [mlhub123](https://github.com/howie6879/mlhub123)：机器学习资源收集
 - [2c](https://github.com/howie6879/2c)：构建一个多源（公众号、RSS）、干净、个性化的阅读环境
+- [weekly](https://github.com/howie6879/weekly)：老胡的信息周刊，为您带来各种值得收藏的软件项目以及资料网站
 
 ## 🐒 笔记
 
@@ -51,16 +52,16 @@ docker run --name jupyter_pylab -it -d --restart=always -p 8765:8888 -e SHELL="/
 
 学习过程中产出的一些文章：
 - [Python](https://www.howie6879.cn/categories/python/):
-    - [浅谈Python项目开发&管理](https://www.howie6879.cn/p/%E6%B5%85%E8%B0%88python%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86/)
-    - [如何用PEP 8编写优雅的Python代码](https://www.howie6879.cn/p/%E5%A6%82%E4%BD%95%E7%94%A8pep-8%E7%BC%96%E5%86%99%E4%BC%98%E9%9B%85%E7%9A%84python%E4%BB%A3%E7%A0%81/)
-    - [谈对Python爬虫的理解](https://www.howie6879.cn/p/%E8%B0%88%E8%B0%88%E5%AF%B9python%E7%88%AC%E8%99%AB%E7%9A%84%E7%90%86%E8%A7%A3/)
-    - [如何实现一个Python爬虫框架](https://www.howie6879.cn/p/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AApython%E7%88%AC%E8%99%AB%E6%A1%86%E6%9E%B6/)
+    - [浅谈Python项目开发&管理](https://www.howie6879.cn/post/2021/14_about_python_env/)
+    - [如何用PEP 8编写优雅的Python代码](https://www.howie6879.cn/post/2018/41/)
+    - [谈对Python爬虫的理解](https://www.howie6879.cn/post/2019/02_talk_about_python_spider/)
+    - [如何实现一个Python爬虫框架](https://www.howie6879.cn/post/2019/03_how_to_build_a_web_scraping_framework_with_python/)
 - ML&DL
     - [ML](https://www.howie6879.cn/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)
     - [DL](https://www.howie6879.cn/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/)
 - [个人思考](https://www.howie6879.cn/tags/%E6%80%9D%E8%80%83/):
-    - [程序员如何在工作中保持进步](https://www.howie6879.cn/p/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E5%9C%A8%E5%B7%A5%E4%BD%9C%E4%B8%AD%E4%BF%9D%E6%8C%81%E8%BF%9B%E6%AD%A5/)
-    - [程序员如何提升个人的技术影响力](https://www.howie6879.cn/p/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%A6%82%E4%BD%95%E6%8F%90%E5%8D%87%E4%B8%AA%E4%BA%BA%E7%9A%84%E6%8A%80%E6%9C%AF%E5%BD%B1%E5%93%8D%E5%8A%9B/)
+    - [程序员如何在工作中保持进步](https://www.howie6879.cn/post/2019/13_how_programmers_keep_progressing_at_work/)
+    - [程序员如何提升个人的技术影响力](https://www.howie6879.cn/post/2020/01_how_programmers_improve_personal_influence/)
 
 ## 📚 书籍
 
