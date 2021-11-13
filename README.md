@@ -17,15 +17,16 @@ cd {your_pylab_path}
 docker run --name jupyter_pylab -it -d --restart=always -p 8765:8888 -e SHELL="/bin/bash" -v "`pwd`:/project-dir" howie6879/jupyter-lab-for-python37:v3.1.4 --allow-root --no-browser --port=8888
 ```
 
-然后访问`http://0.0.0.0:8765/lab?`即可，如果没有接触过`JupyterLab`，可以参考我之前写的这篇文章[JupyterLab：程序员的笔记本神器](https://www.howie6879.cn/p/jupyterlab%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%A5%9E%E5%99%A8/)。
+然后访问`http://0.0.0.0:8765/lab?`即可，如果没有接触过`JupyterLab`，可以参考我之前写的这篇文章[JupyterLab：程序员的笔记本神器](https://www.howie6879.cn/post/2019/04_how_to_use_jupyterlab/)。
 
 
-## 🐷 电子小书
+## 🐷 我的专栏
 
 自己总结产出的一些电子书：
 
 | ✍️                                                            | 👨‍💻                                                      |
 | :----------------------------------------------------------- | :------------------------------------------------------- |
+| [Weekly](https://weekly.howie6879.cn/)：我的周刊 | [Code](https://github.com/howie6879/weekly/)            |
 | [Kubernetes Note](https://www.howie6879.cn/k8s/)：Kubernetes 学习之路 | [Code](https://github.com/howie6879/k8s_note)            |
 | [ML Note](https://www.howie6879.cn/ml_book/)：机器学习之路   | [Code](https://github.com/howie6879/ml_note)             |
 | [Sanic-For-Pythoneer](https://www.howie6879.cn/sanic_book/)：一份sanic使用教程 | [Code](https://github.com/howie6879/Sanic-For-Pythoneer) |
@@ -70,7 +71,7 @@ docker run --name jupyter_pylab -it -d --restart=always -p 8765:8888 -e SHELL="/
 此处记录比较有印象的编程相关的书籍，`Notion`地址见[这里](https://www.notion.so/0245c7cf27394c9fb92712c89ff8b64b?v=6ec8e598d9da451f993349f0f240f21f)，图示如下：
 
 <h1 align=center>
-<img src="https://raw.githubusercontent.com/howie6879/pylab/master/.files/images/books.jpg" width='100%' height=''>
+<img src=".files/images/books.jpg" width='100%' height=''>
 </h1>
 
 ## 👀 关于
