@@ -2,12 +2,6 @@ jupyterlab==3.1.4
 ipywidgets==7.6.3
 jupyter_server==1.8.0
 jedi==0.17.2
-matplotlib
-scikit-learn
 black 
 isort 
-pipenv 
-pandas 
-numpy
-jupyterlab-unfold
-jupyterlab_code_formatter
+pipenv

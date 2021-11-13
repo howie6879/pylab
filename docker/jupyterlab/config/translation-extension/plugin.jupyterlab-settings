@@ -1,0 +1,10 @@
+{
+    // Language
+    // @jupyterlab/translation-extension:plugin
+    // Language settings.
+    // ****************************************
+
+    // Language locale
+    // Set the interface display language. Examples: 'es_CO', 'fr'.
+    "locale": "en"
+}
