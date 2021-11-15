@@ -14,11 +14,10 @@
 ```shell
 cd {your_pylab_path}
 # Docker 执行
-docker run --name jupyter_pylab -it -d --restart=always -p 8765:8888 -e SHELL="/bin/bash" -v "`pwd`:/project-dir" howie6879/jupyter-lab-for-python37:v3.1.4 --allow-root --no-browser --port=8888
+docker run --name jupyter_pylab -it -d --restart=always -p 0.0.0.0:8765:8888 -e SHELL="/bin/zsh" -v "`pwd`:/project-dir" howie6879/jupyter-lab-for-python37:v3.1.4 --allow-root --no-browser --port=8888
 ```
 
 然后访问`http://0.0.0.0:8765/lab?`即可，如果没有接触过`JupyterLab`，可以参考我之前写的这篇文章[JupyterLab：程序员的笔记本神器](https://www.howie6879.cn/post/2019/04_how_to_use_jupyterlab/)。
-
 
 ## 🐷 我的专栏
 

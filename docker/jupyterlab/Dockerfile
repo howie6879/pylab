@@ -48,7 +48,7 @@ COPY ./config/extensionmanager-extension/plugin.jupyterlab-settings /root/.jupyt
 
 
 # ZSH
-RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+RUN wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 RUN chsh -s /bin/zsh
 RUN echo '. /usr/share/autojump/autojump.sh' >> ~/.zshrc
 RUN source ~/.zshrc
