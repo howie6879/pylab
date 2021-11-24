@@ -2,16 +2,16 @@ FROM python:3.7-slim
 # https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#run-jupyterlab
 
 # change china source
-# RUN sed -i 's#http://deb.debian.org#https://mirrors.163.com#g' /etc/apt/sources.list
+RUN sed -i 's#http://deb.debian.org#https://mirrors.163.com#g' /etc/apt/sources.list
 
 # COPY ./sources.list /etc/apt/sources.list
 
-# set proxy
-# RUN export http_proxy=http://127.0.0.1:1087
-# RUN export https_proxy=http://127.0.0.1:1087
-
 # refresh SSL certificates
 RUN apt-get update && apt-get install -y vim git curl wget ca-certificates zsh autojump && update-ca-certificates --fresh
+
+# set proxy
+RUN export http_proxy=http://127.0.0.1:1087
+RUN export https_proxy=http://127.0.0.1:1087
 
 # install nodejs for jupyterextension install support
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - && apt-get install -y nodejs
@@ -27,13 +27,14 @@ RUN pip3 config set global.index-url https://pypi.douban.com/simple/
 # Install basic lib
 RUN pip3 install -r requirements.txt
 
-# Custom extensions
-RUN pip3 install jupyterlab_code_formatter ipydrawio[all] jupyterlab-unfold jupyterlab-theme-solarized-dark theme-darcula jupyterlab-language-pack-zh-CN
-
 # Get our custom extensions for jupyterlab.
 RUN jupyter labextension install @krassowski/jupyterlab_go_to_definition --no-build && \
     jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build && \
     jupyter lab build --dev-build=False
+
+# Custom extensions
+RUN pip3 install jupyterlab_code_formatter jupyterlab-unfold jupyterlab-theme-solarized-dark theme-darcula jupyterlab-language-pack-zh-CN
+RUN pip3 install ipydrawio==1.0.0a0
 
 # Modify jupyter config 
 COPY ./config/jupyter_server_config.py /root/.jupyter/jupyter_server_config.py
