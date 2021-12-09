@@ -33,8 +33,8 @@ RUN jupyter labextension install @krassowski/jupyterlab_go_to_definition --no-bu
     jupyter lab build --dev-build=False
 
 # Custom extensions
+RUN pip3 install ipydrawio[all]==1.1.3
 RUN pip3 install jupyterlab_code_formatter jupyterlab-unfold jupyterlab-theme-solarized-dark theme-darcula jupyterlab-language-pack-zh-CN
-RUN pip3 install ipydrawio==1.0.0a0
 
 # Modify jupyter config 
 COPY ./config/jupyter_server_config.py /root/.jupyter/jupyter_server_config.py
