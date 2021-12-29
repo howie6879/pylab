@@ -46,6 +46,8 @@ RUN mkdir -p /root/.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_format
 COPY ./config/jupyterlab_code_formatter/settings.jupyterlab-settings /root/.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter
 RUN mkdir /root/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension
 COPY ./config/extensionmanager-extension/plugin.jupyterlab-settings /root/.jupyter/lab/user-settings/@jupyterlab/extensionmanager-extension
+RUN mkdir /root/.jupyter/lab/user-settings/@jupyterlab/docmanager-extension
+COPY ./config/docmanager-extension/plugin.jupyterlab-settings /root/.jupyter/lab/user-settings/@jupyterlab/docmanager-extension
 
 
 # ZSH
