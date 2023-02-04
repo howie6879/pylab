@@ -1,8 +1,11 @@
 {
-    "python.pythonPath": "/Users/howie6879/.local/share/virtualenvs/pylab-hgHr9Nt9/bin/python",
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#163324",
-        "titleBar.activeBackground": "#1F4732",
-        "titleBar.activeForeground": "#F7FBF9"
-    }
+  "python.linting.pylintArgs": ["--rcfile=${workspaceFolder}/.pylintrc"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "python.testing.pytestEnabled": true,
+  "python.envFile": "${workspaceFolder}/.env",
+  "isort.args": ["--settings-path", "${workspaceFolder}/setup.cfg"]
 }

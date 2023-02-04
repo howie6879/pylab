@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.9-slim
 # https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#run-jupyterlab
 
 # change china source
@@ -10,8 +10,8 @@ RUN sed -i 's#http://deb.debian.org#https://mirrors.163.com#g' /etc/apt/sources.
 RUN apt-get update && apt-get install -y vim git curl wget ca-certificates zsh autojump && update-ca-certificates --fresh
 
 # set proxy
-RUN export http_proxy=http://127.0.0.1:1087
-RUN export https_proxy=http://127.0.0.1:1087
+# RUN export http_proxy=http://127.0.0.1:1087
+# RUN export https_proxy=http://127.0.0.1:1087
 
 # install nodejs for jupyterextension install support
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - && apt-get install -y nodejs
@@ -33,8 +33,9 @@ RUN jupyter labextension install @krassowski/jupyterlab_go_to_definition --no-bu
     jupyter lab build --dev-build=False
 
 # Custom extensions
-RUN pip3 install ipydrawio[all]==1.1.3
-RUN pip3 install jupyterlab_code_formatter jupyterlab-unfold jupyterlab-theme-solarized-dark theme-darcula jupyterlab-language-pack-zh-CN
+# RUN pip3 install ipydrawio[all]==1.1.3
+RUN pip3 install ipydrawio[all]
+RUN pip3 install jupyterlab_code_formatter jupyterlab-unfold jupyterlab-theme-solarized-dark theme-darcula jupyterlab-language-pack-zh-CN jupyterlab_markup jupyterlab-spreadsheet-editor
 
 # Modify jupyter config 
 COPY ./config/jupyter_server_config.py /root/.jupyter/jupyter_server_config.py
