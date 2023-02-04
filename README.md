@@ -57,10 +57,10 @@ docker run --name jupyter_pylab -it -d --restart=always -p 0.0.0.0:8765:8888 -e 
 ## 🐒 笔记
 
 学习实践记录：
-- [play_with_linear_algebra](./pylab/lessons/play_with_linear_algebra)：波波老师程序员线性代数学习笔记
-- [pytorch](./pylab/tutorial/pytorch/): pytorch的一些操作使用记录
-- [numpy](./pylab/tutorial/numpy/): numpy的一些操作使用记录
-- [python_tricks](./pylab/tutorial/python_tricks): 一些Python小技巧 
+- [play_with_linear_algebra](./src/lessons/play_with_linear_algebra)：波波老师程序员线性代数学习笔记
+- [pytorch](./src/tutorial/pytorch/): Pytorch 的一些操作使用记录
+- [numpy](./src/tutorial/numpy/): Numpy 的一些操作使用记录
+- [python_tricks](./src/tutorial/python_tricks): 一些 Python 小技巧 
 - ...
 
 ## 📚 书籍
