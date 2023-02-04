@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.10-slim
 # https://jupyter-docker-stacks.readthedocs.io/en/latest/using/recipes.html#run-jupyterlab
 
 # change china source
